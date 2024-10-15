@@ -13,8 +13,8 @@ spec:
         app: react
     spec:
       containers:
-      - name: dampi-react
-        image: dampi-react:latest
+      - name: mwene/wordsmith-web
+        image: mwene/wordsmith-web:latest
         ports:
         - containerPort: 80
 
