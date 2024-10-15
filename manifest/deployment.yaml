@@ -13,7 +13,7 @@ spec:
         app: mwene
     spec:
       containers:
-      - name: mwene/wordsmith-web
+      - name: mwene
         image: mwene/wordsmith-web:latest
         ports:
         - containerPort: 80
